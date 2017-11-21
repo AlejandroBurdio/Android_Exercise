@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Sin implementar pero listo para cualquier uso-->
+    <item
+        android:id="@+id/action_cop"
+        android:orderInCategory="1"
+        android:title=""
+        app:showAsAction="never"/>
+
+</menu>
+

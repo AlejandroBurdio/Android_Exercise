@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alejandroburdiogarcia.android_exercise.UI.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Titulo Botones -->
+        <LinearLayout
+            android:id="@+id/layoutTituloBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_titles"
+            android:layout_marginTop="@dimen/margin_titles"
+            android:background="@color/colorPrimary">
+
+            <TextView
+                android:id="@+id/txtTituloBtn"
+                style="@android:style/Widget.Material.Light.TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/title_btns"
+                android:textSize="@dimen/tam_titulo_main"
+                android:textColor="@color/blanco" />
+        </LinearLayout>
+
+        <!-- Botones-->
+        <LinearLayout
+            android:id="@+id/layoutBotones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layoutTituloBtn"
+            android:layout_marginLeft="@dimen/margin_btns"
+            android:layout_marginRight="@dimen/margin_btns">
+
+            <Button
+                android:id="@+id/btn_getId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/getId"/>
+
+            <Button
+                android:id="@+id/btn_create"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create"/>
+
+            <Button
+                android:id="@+id/btn_update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/update"/>
+
+            <Button
+                android:id="@+id/btn_remove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/removeID"/>
+
+        </LinearLayout>
+
+        <!-- Titulo Usuarios -->
+        <LinearLayout
+            android:id="@+id/layoutTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layoutBotones"
+            android:layout_marginBottom="@dimen/margin_titles"
+            android:layout_marginTop="@dimen/margin_titles"
+            android:background="@color/colorPrimary">
+        <TextView
+            android:id="@+id/txtTitulo"
+            style="@android:style/Widget.Material.Light.TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="@dimen/tam_titulo_main"
+            android:text="@string/title_users"
+            android:textColor="@color/blanco" />
+        </LinearLayout>
+
+        <!-- ListView Usuarios -->
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layoutTitulo">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <ListView
+                    android:id="@+id/listview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/list_heigth"
+                    android:layout_marginLeft="@dimen/margin_titles"
+                    android:layout_marginRight="@dimen/margin_titles" />
+            </LinearLayout>
+        </ScrollView>
+
+        <Button
+            android:id="@+id/btn_get1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/getAll"
+            android:layout_below="@+id/scrollView"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

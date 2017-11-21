@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/layoutName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dialog_margin_left">
+        <TextView
+            android:id="@+id/txtCreaName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/elige_nombre" />
+
+        <EditText
+            android:id="@+id/etCreaName"
+            android:layout_width="@dimen/et_width"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_start"
+            android:layout_toEndOf="@+id/txtCreaName"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layoutName"
+        android:layout_marginLeft="@dimen/dialog_margin_left"
+        android:layout_marginTop="@dimen/dialog_margin_top" >
+        <TextView
+            android:id="@+id/txtCreaFecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/elige_fecha" />
+
+        <TextView
+            android:id="@+id/txtFechaCreada"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/elige_fecha_hint"
+            android:layout_marginStart="@dimen/margin_start2"
+            android:layout_toEndOf="@+id/txtCreaFecha"/>
+    </LinearLayout>
+
+</RelativeLayout>

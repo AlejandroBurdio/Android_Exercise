@@ -1,0 +1,45 @@
+<resources>
+    <!-- Título de la app -->
+    <string name="app_name">Android exercise</string>
+    <string name="titulo">Android exercise</string>
+    <string name="espere_porfavor">Espere por favor...</string>
+
+    <!-- dialog_elegir_ids-->
+    <string name="elige_ids">Elige uno de estos ids</string>
+    <string name="elige_id">Elige un id</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+
+    <!-- dialog_crear_usuario -->
+    <string name="crear_usuario">Crea un usuario</string>
+    <string name="updatear_usuario">Modificar un usuario</string>
+    <string name="elige_nombre">Introduce un nombre:\u0020</string>
+    <string name="elige_fecha">Introduce una fecha:\u0020</string>
+    <string name="elige_fecha_hint">Introduce fecha</string>
+    <string name="error_datos">Los datos son erróneos</string>
+
+    <!-- dialog_error-->
+    <!-- \n para saltos de línea -->
+    <string name="dialogo_error_no_datos">Para poder el elegir el id que usted quiera, primero necesita descargarse los datos.\nPulse el botón GET ALL para poder obtener estos datos.</string>
+
+    <!-- Botones -->
+    <string name="getAll">GET ALL</string>
+    <string name="getId">GET ID</string>
+    <string name="create">CREATE</string>
+    <string name="update">UPDATE</string>
+    <string name="removeID">REMOVE</string>
+
+    <!-- activity_main -->
+    <string name="title_btns">BOTONES</string>
+    <string name="title_users">USUARIOS</string>
+
+    <!-- activity_main -->
+    <!-- \u0020 para espacios en blanco -->
+    <string name="title_id">Id:\u0020</string>
+    <string name="title_name">Name:\u0020</string>
+    <string name="title_birth">Birthdate:\u0020</string>
+    <string name="id_creado">El usuario se creó perfectamente</string>
+    <string name="id_borrado">El usuario se borró perfectamente</string>
+    <string name="url_no_valida">El usuario se borró perfectamente</string>
+
+</resources>

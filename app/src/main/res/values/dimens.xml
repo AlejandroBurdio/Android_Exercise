@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="margin_btns">3dp</dimen>
+    <dimen name="margin_titles">10dp</dimen>
+    <dimen name="list_heigth">350dp</dimen>
+    <dimen name="et_width">120dp</dimen>
+    <dimen name="margin_start">15dp</dimen>
+    <dimen name="margin_start2">21dp</dimen>
+    <dimen name="dialog_margin_left">24dp</dimen>
+    <dimen name="dialog_margin_top">17dp</dimen>
+    <dimen name="tam_titulo">25dp</dimen>
+    <dimen name="tam_titulo_main">16dp</dimen>
+
+</resources>
